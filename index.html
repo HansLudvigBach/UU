@@ -49,7 +49,7 @@
     </nav>
 
     <section>
-      <h2>Viktig beskjed: Les dette! Klikk her! Klikk her! Klikk her! Veldig viktig!</h2>
+      <h2><a href="#">Les mer her for viktig informasjon ang div-suppe</a></h2>
     </section>
 
     
@@ -57,20 +57,26 @@
         <aside>
           <section>
             <h4>Nyheter</h4> 
-            <p>
+            <article>
               <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" alt=""> 
-              <a class="tiny-link" href="#">Klikk her</a> for å lese mer om ting.
-            </p>
+              <a class="tiny-link" href="#">Klikk her</a>
+            </article>
+
             <p class="status-ok">Tilgjengelig</p>
             <p class="status-bad">Utilgjengelig</p>
           </section>
 
           <section>
             <h4>Språk</h4>
-            <p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Norway.svg" alt="no">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="en">
-            </p>
+            <ul>
+              <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Norway.svg" alt="no" title="Norsk bokmål">
+              </li>
+
+              <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="en" title="Engelsk">
+              </li>
+            </ul>
           </section>
         </aside>
 
@@ -120,36 +126,61 @@
             </form>
           </div>
 
-          <div class="card weird-order">
+          <article>
             <h4>Mer innhold</h4>
-            <p>
-              <a href="#">Les mer</a> |
-              <a href="#">Klikk her</a> |
-              <a href="#">Trykk her</a>
-            </p>
-            <p>
-              <span class="btn">Primær handling</span>
-            </p>
-          </div>
+            <ol>
+              <li>
+                <a href="#">Les mer om eksamensoppgave 1 her</a>
+              </li>
 
-          <div class="card">
+              <li>
+                <a href="#">Klikk her for mer informasjon om eksamensoppgave 2</a>
+              </li>
+
+              <li>
+              <a href="#">Trykk her for informasjon for eksamensoppgave 3</a>
+              </li>
+            </ol>
+              <button>Start eksamen</button>
+          </article>
+
+          <article>
             <h4>Tabell uten overskrifter</h4>
             <table>
-              <tr><td>1</td><td>2</td><td>3</td></tr>
-              <tr><td>4</td><td>5</td><td>6</td></tr>
-              <tr><td>7</td><td>8</td><td>9</td></tr>
+              <tbody>
+                <tr>
+                  <th>Kolonne1</th>
+                  <th>Kolonne2</th>
+                  <th>Kolonne3</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                </tr>
+              </tbody>
             </table>
-          </div>
+          </article>
 
-          <div class="card">
-            <h4>Masse lenker med samme tekst</h4>
-            <ul>
-              <li><a href="#">Les mer</a></li>
-              <li><a href="#">Les mer</a></li>
-              <li><a href="#">Les mer</a></li>
-              <li><a href="#">Les mer</a></li>
-            </ul>
-          </div>
+            <article>
+              <h3>Masse lenker med samme tekst</h3>
+              <ul>
+                <li><a href="#">Oppgave om UU</a></li>
+                <li><a href="#">Oppgave om SEO</a></li>
+                <li><a href="#">Oppgave om semantisk HTML</a></li>
+                <li><a href="#">Oppgave om CSS Grid og flex</a></li>
+              </ul>
+            </article>
           </section>
         </main>
 
